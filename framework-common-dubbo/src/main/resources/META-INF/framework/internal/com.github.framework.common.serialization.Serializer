@@ -1,0 +1,3 @@
+proto=com.github.framework.common.serialization.proto.ProtoStuffSerializer
+kryo=com.github.framework.common.serialization.kryo.KryoSerializer
+fast=com.github.framework.common.serialization.fastjson.FastJsonSerializer

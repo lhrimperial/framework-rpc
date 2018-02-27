@@ -1,0 +1,18 @@
+package com.github.framework.common.extension;
+
+import java.lang.annotation.*;
+
+/**
+ * 扩展点接口的标识
+ */
+@Documented
+@Retention(RetentionPolicy.RUNTIME)
+@Target({ElementType.TYPE})
+public @interface SPI {
+
+    /**
+     * 缺省扩展点名称
+     * @return
+     */
+    String value() default "";
+}

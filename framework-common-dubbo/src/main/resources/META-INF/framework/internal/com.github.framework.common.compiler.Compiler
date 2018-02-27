@@ -1,0 +1,3 @@
+adaptive=com.github.framework.common.compiler.support.AdaptiveCompiler
+jdk=com.github.framework.common.compiler.support.JdkCompiler
+javassist=com.github.framework.common.compiler.support.JavassistCompiler
